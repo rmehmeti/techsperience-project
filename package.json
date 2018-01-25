@@ -1,0 +1,26 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmehmeti/techsperience-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rmehmeti/techsperience-project/issues"
+  },
+  "homepage": "https://github.com/rmehmeti/techsperience-project#readme",
+  "description": ""
+}
