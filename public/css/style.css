@@ -7,7 +7,7 @@ body {
 
 #container
 {
-  width: 850px;
+  width: 1300px;
   margin: 0px auto;
  
 }
@@ -16,8 +16,8 @@ body {
  .header
 {  
   background:#5c755e;
-  height:75px;
-  width: 964px;
+  height:100px;
+  width: 1000px;
   border: solid 2px #000;
   color:white;
 }
@@ -26,8 +26,8 @@ body {
 /* Full-width input fields */
 input[type=text], input[type=password] {
     width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
+    padding: 20px;
+    margin: 5px 0 10px 0;
     display: inline-block;
     border: none;
     background: #f1f1f1;
@@ -40,7 +40,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 hr {
     border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 /* Set a style for all buttons */
@@ -51,7 +51,7 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
     opacity: 0.9;
 }
 
@@ -68,7 +68,7 @@ button:hover {
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
   float: left;
-  width: 50%;
+  width: 25%;
 }
 
 /* Add padding to container elements */
@@ -84,8 +84,8 @@ button:hover {
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
     .cancelbtn, .signupbtn {
-       width: 100%;
+       width: 200%;
     }
 }
